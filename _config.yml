@@ -1,0 +1,27 @@
+# standard jekyll configuration
+
+permalink: date
+pygments: true
+exclude: ['Rakefile', 'README.md', 'config.rb']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: grist.brownsofa.org
+title: Grist Blog
+author: Ian
+email: ian.truslove@gmail.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+# github:
+#   username: ghusername
+
+disqus:
+   id: grist-blog
