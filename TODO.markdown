@@ -3,8 +3,6 @@
 * Install and use `kramdown` and configure auto code highlighting
 * Configure vim to treat liquid code blocks as code blocks - e.g. try adding some clojure to a markdown page...
 * Configure vim to handle the yaml front matter
-* Pull in all content from the nanoc version
-* Figure out permalinks - need to make sure all resources on the old site are still either directly available, or redirected
 * Layout:
   * Nice typeface, nice spacing
   * ? Single column layout - maximise the reading room
@@ -19,3 +17,22 @@
 # Done
 
 * Add prev and next links on the post template
+* Pull in all content from the nanoc version
+* Figure out permalinks - need to make sure all resources on the old site are still either directly available, or redirected
+* Sign up on twitter for @gristbrewing https://twitter.com/GristBrewing
+* Push up jekyll grist and re-point server
+
+# Other
+
+* Clean up SSH keys between nsidc-icing and air
+* Change the background color to be off-white, not blue
+* Add @gristbrewing to website
+* One-off backup of webserver: /home/www, /etc/httpd, database
+* Blog on "Cider Days"
+* Finish up the couple of unfinished beer logs, and put in photos
+* Configure automatic backups on webserver, and automatic pulldown of backups to air
+* Move brownsofa.org/blog from WP to Jekyll
+* Blog on "How to move from Wordpress to Jekyll"
+* Move roseroots DB into AWS PaaS
+* Set up load balancer / single IP point of entry, and multiple app servers behind - e.g. m1.micro with Nginx for static blogs, another m1.micro for WP installs
+* Blog on "How to get off a VPS, and into a fault-tolerant AWS solution" - basics, ground up.  Perhaps multiple entries.
