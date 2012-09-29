@@ -18,8 +18,8 @@ email: ian.truslove@gmail.com
 # feedburner:
 #   id: feedburnerid
 
-# google_analytics:
-#   account: UA-XXXXX-X
+google_analytics:
+  account: UA-27679933-1
 
 # github:
 #   username: ghusername

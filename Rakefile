@@ -19,7 +19,9 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
+  GRIST_KEY_PAIR = 'GRIST_KEY_PAIR'
+  fail("Need to set GRIST_KEY_PAIR") unless ENV[GRIST_KEY_PAIR]
+  sh('rsync -av --progress --delete -e "ssh -i ' + ENV[GRIST_KEY_PAIR] + '" _site/ ec2-user@grist.brownsofa.org:/home/www/grist.brownsofa.org/htdocs')
 end
 
 desc 'Check links for site already running on localhost:4000'
