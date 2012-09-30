@@ -1,5 +1,5 @@
 body {
-  background: #dde;
+  background: #ccc;
   background-image: url("/images/little_pluses.png");
   font-family: Georgia, serif;
   line-height: 160%;
@@ -20,13 +20,13 @@ h1, h2, h3 {
 }
 #header h1 {
   font-size: 16px;
-  color: #5C5040;
+  color: #5c5040;
   padding-bottom: 0px;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 #header .byline {
-  color: #5C5040;
+  color: #5c5040;
   padding-top: 0px;
   margin-top: -5px;
 }
@@ -40,6 +40,15 @@ h1, h2, h3 {
 #header #links {
   float: right;
   width: 300px;
+  color: #5c5040;
+}
+#header #links a {
+  color: #5c5040;
+  text-decoration: none;
+  border-bottom: 1px dotted #5c5040;
+}
+#header #links a:hover {
+  border-bottom: 0;
 }
 #header #links ul {
   display: inline;
@@ -54,9 +63,16 @@ h1, h2, h3 {
 
 #page {
   max-width: 720px;
+  min-width: 600px;
   background: #fff;
   padding: 10px 30px 10px 30px;
   margin: 60px auto 40px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px 0 white;
+  -moz-box-shadow: 0 1px 6px 0 white;
+  box-shadow: 0 1px 6px 0 white;
 }
 
 .post-metadata {
