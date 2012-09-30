@@ -14,7 +14,7 @@
   * Recent comments box
 * Change the background color to be off-white, not blue
 * Add @gristbrewing to website
-* Blog on "Cider Days"
+* Blog on 4 cider recipes
 * Finish up the couple of unfinished beer logs, and put in photos
 
 # Done
@@ -28,6 +28,7 @@
 * Clean up SSH keys between icing and air
 * One-off backup of webserver: /home/www, /etc/httpd, database
 * Configure automatic backups on webserver, and automatic pulldown of backups to air
+* Blog on "Cider Days"
 
 # Other
 
