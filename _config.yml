@@ -15,8 +15,8 @@ email: ian.truslove@gmail.com
 
 # configuration for ehancements, uncomment to enable
 
-# feedburner:
-#   id: feedburnerid
+feedburner:
+  id: GristBlog
 
 google_analytics:
   account: UA-27679933-1

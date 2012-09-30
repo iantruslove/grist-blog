@@ -1,6 +1,7 @@
 # TODO
 
-* Make `rake deploy` work properly - rsync + SSH keys
+* Photos
+  * Make them look a little nicer, and automate them
 * Layout:
   * Nice typeface, nice spacing
   * ? Single column layout - maximise the reading room
@@ -18,20 +19,21 @@
 
 # Done
 
+* Make `rake deploy` work properly - rsync + SSH keys
 * Add prev and next links on the post template
 * Pull in all content from the nanoc version
 * Figure out permalinks - need to make sure all resources on the old site are still either directly available, or redirected
 * Sign up on twitter for @gristbrewing https://twitter.com/GristBrewing
 * Push up jekyll grist and re-point server
-* Clean up SSH keys between nsidc-icing and air
+* Clean up SSH keys between icing and air
+* One-off backup of webserver: /home/www, /etc/httpd, database
+* Configure automatic backups on webserver, and automatic pulldown of backups to air
 
 # Other
 
-* One-off backup of webserver: /home/www, /etc/httpd, database
 * Install and use `kramdown` and configure auto code highlighting
 * Configure vim to treat liquid code blocks as code blocks - e.g. try adding some clojure to a markdown page...
 * Configure vim to handle the yaml front matter
-* Configure automatic backups on webserver, and automatic pulldown of backups to air
 * Move brownsofa.org/blog from WP to Jekyll
 * Blog on "How to move from Wordpress to Jekyll"
 * Move roseroots DB into AWS PaaS

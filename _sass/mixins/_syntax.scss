@@ -83,6 +83,30 @@ h1, h2, h3 {
 	        box-shadow: 0 1px 6px 0 white;
 }
 
+#gallery {
+  overflow: auto;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.photo {
+  display: block;
+  float: left;
+  width: 170px;
+  height: 170px;
+  background: white;
+  margin: 4px;
+  text-align: center;
+}
+
+img.thumb {
+  max-height: 150px;
+  max-width: 150px;
+  padding: 10px;
+}
+
 .post-metadata {
   color: #aaa;
   border: 0;
