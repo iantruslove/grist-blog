@@ -50,12 +50,27 @@ Mash at 150&deg;F mash for 120 mins.  Mash out at 170&deg;F.
 
 ### 05/30/2012 (Brew Day)
 
-I tried to nail down a couple more weak spots in my process, both related to efficiency.  I've noticed lots of trub post-whirlpool, and in general poor extraction efficiency.  
+I tried to nail down a couple more weak spots in my process, both related to
+efficiency.  I've noticed lots of trub post-whirlpool, and in general poor
+extraction efficiency.  
 
-Hop bags really helped with reducing trub - hop additions go into the boil in the normal way, except instead of throwing the hops in directly, they go in a small muslin bag.  
+Hop bags really helped with reducing trub - hop additions go into the boil in
+the normal way, except instead of throwing the hops in directly, they go in a
+small muslin bag.  
 
-Something I have consistently not hit properly in previous mashes was the rinse temperature.  Adding a small amount of water at boiling to 3 gals of 150F water doesn't do a whole lot to raise the mash temp to 170F.  This time I tried draining the MLT *before* adding my first infusion.  This really helped - I raised the grist to 165F before draining for the second time.  The second infusion went in after that, raising the grist to 180F.
+Something I have consistently not hit properly in previous mashes was the rinse
+temperature.  Adding a small amount of water at boiling to 3 gals of 150F water
+doesn't do a whole lot to raise the mash temp to 170F.  This time I tried
+draining the MLT *before* adding my first infusion.  This really helped - I
+raised the grist to 165F before draining for the second time.  The second
+infusion went in after that, raising the grist to 180F.
 
-I also ended up with an (unplanned) 2 hour mash.  During the brew I wasn't really hitting the target mash temperatures I was after, so a couple of times I pulled off a 2 pint decoction, boiled it in a small pan, and re-added to the mash.  By the time I started draining, 2 hours had passed...
+I also ended up with an (unplanned) 2 hour mash.  During the brew I wasn't
+really hitting the target mash temperatures I was after, so a couple of times I
+pulled off a 2 pint decoction, boiled it in a small pan, and re-added to the
+mash.  By the time I started draining, 2 hours had passed...
 
-I can't identify exactly what caused what, but I ended up extracting at 91% into the kettle, with total brewhouse efficiency being 83%.  
+I can't identify exactly what caused what, but I ended up extracting at 91%
+into the kettle, with total brewhouse efficiency being 83%.  
+
+
