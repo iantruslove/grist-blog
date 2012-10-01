@@ -5,23 +5,41 @@ title: Archives
 ---
 
 <div id="archives">
-  <ul>
-    {% for post in site.posts %}
 
-      {% unless post.next %}
-        <h2>{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2>{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
+  {% for post in site.posts %}
 
-      <li>
-      {{ post.date | date:"%b" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-      {% if post.excerpt %} - {{ post.excerpt }}{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+
+    {% if post.next == null %}
+      {% capture nextyear %} no year {% endcapture %}
+      {% capture nextmonth %} no month {% endcapture %}
+    {% else %}
+      {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% capture nextmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+    {% endif %}
+
+    {% if post.previous == null %}
+      {% capture prevyear %} no year {% endcapture %}
+      {% capture prevmonth %} no month {% endcapture %}
+    {% else %}
+      {% capture prevyear %}{{ post.previous.date | date: '%Y' }}{% endcapture %}
+      {% capture prevmonth %}{{ post.previous.date | date: '%B' }}{% endcapture %}
+    {% endif %}
+
+    {% if year != nextyear or month != nextmonth %}
+      <h2>{{ month }}, {{year}}</h2>
+      <ul>
+    {% endif %}
+
+    <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.excerpt }}
+    </li>
+
+    {% if year != prevyear or month != prevmonth %}
+    </ul>
+    {% endif %}
+
+  {% endfor %}
+
 </div>
