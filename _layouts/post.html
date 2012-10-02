@@ -9,7 +9,7 @@ layout: default
 </div>
 
 <div class="post">
-{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+  {% if page.title %}<a class="title" href="{{page.url}}" title="{{page.title}}" alt="Permalink for post"><h1>{{ page.title }}</h1></a>{% endif %}
 {{ content }}
 </div>
 
