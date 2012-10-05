@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post
-tags: [first, post, jekyll, rocks]
+tags: [tech]
 last_updated: 2010-10-07
 published: false
 ---

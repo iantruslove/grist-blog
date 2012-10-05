@@ -14,7 +14,7 @@
   * Recent comments box
 * Change the background color to be off-white, not blue
 * Add @gristbrewing to website
-* Blog on 4 cider recipes
+* Update blogs on 4 cider recipes
 * Finish up the couple of unfinished beer logs, and put in photos
 
 # Done
